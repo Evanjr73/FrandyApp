@@ -6,7 +6,7 @@ function Home(){
     return(
         <div className="home">
 
-            <h1>ola mundo doido</h1>
+            <h1>HOME</h1>
 
         </div>
     )
