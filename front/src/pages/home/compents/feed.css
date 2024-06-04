@@ -1,0 +1,20 @@
+
+
+
+img{
+ 
+    height: 100%;
+    width: 100%;
+}
+
+.biofeed{
+    height: 10vh;
+    max-height: 15vh;
+    width: auto;
+    max-width: 93%;
+   
+    position: absolute;
+    top: 70%; /* Ajuste a posição vertical do texto */
+    left: 5%; /* Ajuste a posição horizontal do texto */
+    color: rgb(207, 241, 13);
+}
