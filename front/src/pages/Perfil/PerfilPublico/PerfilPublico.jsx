@@ -2,6 +2,7 @@
 
 import '../globalstyles.css'
 import './PerfilPublico.css'
+import menu from "../../../assets/img/menu.png"
 import Chat from "../../../assets/img/chat.png"
 import FotoPapelParede from "../../../assets/img/praia.png"
 import FotoPerfilnome from "../../../assets/img/foto.png"
@@ -16,7 +17,7 @@ function PerfilPublico (){
 
             <header>
                 <nav>
-                    <img src={Chat} alt="" />
+                    <img src={menu} alt="" />
                 </nav>
                 <img src={FotoPapelParede} alt=""  className='Papel-de-parede'/>
                 <div className='PerfilFoto'>

@@ -67,6 +67,14 @@ nav{
     width: 100vw;
     margin-top: 1vw;
 }
+
+.separador-baixo{
+    background-color: azure;
+    height: 90px;
+    width: 100vw;
+    margin-top: 1vw;
+}
+
 ul{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 2fr));
@@ -76,7 +84,9 @@ ul{
 
 li{
     border-radius: 1vw;
+    
 }
 .grid-img{
     background-color: rgb(43, 45, 46);
+    border-radius: 7px;
 }

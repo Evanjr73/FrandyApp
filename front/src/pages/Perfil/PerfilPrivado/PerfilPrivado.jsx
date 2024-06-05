@@ -4,6 +4,7 @@ import editor from '../img/editar.png'
 import '../globalstyles.css'
 import './PerfilPrivado.css'
 import Chat from "../../../assets/img/chat.png"
+import menu from "../../../assets/img/menu.png"
 import FotoPapelParede from "../../../assets/img/praia.png"
 import FotoPerfilnome from "../../../assets/img/foto.png"
 import Footer from '../../../compo/Footer'
@@ -20,7 +21,7 @@ function PerfilPrivado() {
 
             <header>
                 <nav>
-                    <img src={Chat} alt="" />
+                    <img src={menu} alt="" />
                 </nav>
                 <img src={FotoPapelParede} alt="" className='Papel-de-parede' />
                 <div className='PerfilFoto'>
@@ -67,7 +68,7 @@ function PerfilPrivado() {
                     <li><img src={FotoPerfilnome} className='grid-img' alt="" /></li>
                 </ul>
             </div>
-            <div className='separador'></div>
+            <div className='separador-baixo'></div>
 
             <Footer></Footer>
         </div>
