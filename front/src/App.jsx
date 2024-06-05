@@ -19,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/perfil" element={<PerfilPublico />} />
+          <Route path="/perfilPrivado" element={<PerfilPrivado />} />
 
         </Routes>
       </Router>
