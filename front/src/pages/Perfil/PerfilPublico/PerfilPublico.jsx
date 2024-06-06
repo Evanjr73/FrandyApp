@@ -58,6 +58,7 @@ function PerfilPublico (){
                     <li><img src={FotoPerfilnome} className='grid-img' alt="" /></li>
                 </ul>
             </div>
+            <div className='separador-baixo'></div>
             <footer><Footer></Footer></footer>
             
         </div>

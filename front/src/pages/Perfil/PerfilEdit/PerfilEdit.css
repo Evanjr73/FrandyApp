@@ -1,0 +1,43 @@
+
+
+
+
+.fotos-edit{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    padding-top: 10vw;
+    gap: 30px;
+
+}
+.grid-img{
+    background-color: rgba(240, 248, 255, 0);
+    gap: 20px;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 2fr));
+    
+   
+    gap: 10px;
+}
+
+
+.titulo-edit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    height: auto;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: aqua;
+}
+
+.grid-img{
+    width: 101%;
+}

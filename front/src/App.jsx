@@ -19,7 +19,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/perfil" element={<PerfilPublico />} />
-          <Route path="/perfilPrivado" element={<PerfilPrivado />} />
+          <Route path="/perfil/Privado" element={<PerfilPrivado />} />
+          <Route path="/perfil/Edit" element={<PerfilEdit/>} />
+
 
         </Routes>
       </Router>
