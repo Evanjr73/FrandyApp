@@ -19,7 +19,7 @@
             height: 85vh;
             align-items: center;
     }
-    footer{
+    .footer-footer{
 
         position: fixed;
         bottom: 0;
@@ -51,7 +51,7 @@
         
     }
 
-    button{
+    .button-footer{
         height: 9vh;
         width: 20vw;
         border-radius: 40px;

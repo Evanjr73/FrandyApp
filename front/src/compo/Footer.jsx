@@ -8,19 +8,19 @@ function Footer() {
 
 
     return (
-        <footer>
+        <footer className="footer-footer">
             <a href="">
-                <button></button>
+                <button className="button-footer"></button>
             </a>
 
             <a href="">
-                <button>
+                <button className="button-footer">
                     <img className="footerImg" src={Chat} alt="Chat" />
                 </button>
             </a>
 
             <a href="">
-                <button>
+                <button className="button-footer">
                     <img className="footerImg" src={Perfil} alt="" />
                 </button>
             </a>
