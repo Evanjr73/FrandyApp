@@ -4,6 +4,7 @@ import Login from './pages/login/Login'
 import PerfilPublico from './pages/Perfil/PerfilPublico/PerfilPublico'
 import PerfilPrivado from './pages/Perfil/PerfilPrivado/PerfilPrivado'
 import PerfilEdit from './pages/Perfil/PerfilEdit/PerfilEdit'
+import Cadastro1 from './pages/cadatro/page1/Page'
 
 import './App.css'
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/perfil" element={<PerfilPublico />} />
           <Route path="/perfil/Privado" element={<PerfilPrivado />} />
           <Route path="/perfil/Edit" element={<PerfilEdit/>} />
+          <Route path="/perfil/cadastro" element={<Cadastro1/>} />
 
 
         </Routes>

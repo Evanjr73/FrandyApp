@@ -2,7 +2,7 @@
 import FotoPerfil from "../../../assets/img/perfil.png"
 import editor from '../img/editar.png'
 import '../globalstyles.css'
-import './PerfilPrivado.css'
+
 import Chat from "../../../assets/img/chat.png"
 import menu from "../../../assets/img/menu.png"
 import FotoPapelParede from "../../../assets/img/praia.png"
