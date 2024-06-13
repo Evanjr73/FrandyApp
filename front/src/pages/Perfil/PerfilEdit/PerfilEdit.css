@@ -16,15 +16,11 @@
 .grid-img{
     background-color: rgba(240, 248, 255, 0);
     gap: 20px;
+    width: 101%;
+    
 }
 
-ul{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 2fr));
-    
-   
-    gap: 10px;
-}
+
 
 
 .titulo-edit{
@@ -36,8 +32,4 @@ ul{
     padding: 10px;
     border-radius: 12px;
     background-color: aqua;
-}
-
-.grid-img{
-    width: 101%;
 }

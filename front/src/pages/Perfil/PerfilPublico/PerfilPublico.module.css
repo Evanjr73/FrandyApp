@@ -1,21 +1,4 @@
-.PerfilFoto {
-    display: flex;
-    position: absolute;
-    margin-top: 10vh;
-    top: 10;
-    left: 50;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    height: 15vh;
-    width: 15vh;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
-
-
-}
 
 nav {
 
@@ -27,15 +10,7 @@ nav {
 
 }
 
-.Papel-de-Parede {
 
-    position: absolute;
-    top: 100;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
 
 .FotoPerfilnome {
     width: 100%;
@@ -71,53 +46,27 @@ nav {
     margin-top: 1vw;
 }
 
-ul {
+/* ul {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 2fr));
     padding: 2vw;
     gap: 0.3rem;
-}
+} */
 
-li {
+/* li {
     border-radius: 1vw;
 
-}
+} */
 
 .grid-img {
     background-color: rgb(43, 45, 46);
     border-radius: 7px;
+    max-height: 80vh;
 }
 
-.formularioedit {
-    display:flex ;
-    margin: auto;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1vw;
 
 
-    height: auto;
-    width: 100%;
-   
-}
 
-.input-Edit {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-
-
-    height: auto;
-    width: 90vw;
-
-    border-radius: 10px;
-    padding: 15px;
-    margin-top: 15vw;
-    gap: 3vw;
-
-}
 
 .dadosinput {
     display: flex;
@@ -147,17 +96,3 @@ li {
 
 }
 
-.formularioedit-bio {
-    display:flex ;
-    
-    margin: auto;
-    margin-top: 7vw;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1vw;
-   
-
-    height: auto;
-    width: 100%;
-   
-}

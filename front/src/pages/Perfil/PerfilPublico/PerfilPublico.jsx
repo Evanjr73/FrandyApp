@@ -1,12 +1,13 @@
 
 
 import '../globalstyles.css'
-import './PerfilPublico.css'
+import './PerfilPublico.module.css'
 import menu from "../../../assets/img/menu.png"
 import Chat from "../../../assets/img/chat.png"
 import FotoPapelParede from "../../../assets/img/praia.png"
 import FotoPerfilnome from "../../../assets/img/foto.png"
 import Footer from '../../../compo/Footer'
+import MenuLateral from '../../../compo/menulateral/menu'
 
 function PerfilPublico (){
     
@@ -16,9 +17,7 @@ function PerfilPublico (){
         <div className="container"> 
 
             <header>
-                <nav>
-                    <img src={menu} alt="" />
-                </nav>
+                <MenuLateral></MenuLateral>
                 <img src={FotoPapelParede} alt=""  className='Papel-de-parede'/>
                 <div className='PerfilFoto'>
                         <img src={FotoPerfilnome} alt="" className='FotoPerfilnome' />
@@ -58,8 +57,9 @@ function PerfilPublico (){
                     <li><img src={FotoPerfilnome} className='grid-img' alt="" /></li>
                 </ul>
             </div>
+            
+            <Footer></Footer>
             <div className='separador-baixo'></div>
-            <footer><Footer></Footer></footer>
             
         </div>
     )

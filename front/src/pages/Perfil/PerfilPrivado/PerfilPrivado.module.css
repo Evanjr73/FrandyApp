@@ -1,0 +1,123 @@
+/* Estilos gerais */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100vw;
+}
+
+.header {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Papel-de-Parede {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.PerfilFoto {
+    display: flex;
+    position: absolute;
+    top: 10vh; /* Ajuste conforme necessário */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15vh;
+    height: 15vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2; /* Garantir que esteja acima do Papel-de-Parede */
+}
+
+.FotoPerfilnome {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.editor {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    left: 80%;
+    top: 80%;
+    z-index: 3; /* Garantir que esteja acima da FotoPerfilnome */
+}
+
+/* Estilos para o menu lateral */
+.lateralMenu {
+    position: fixed;
+    top: 0;
+    right: -250px; /* Escondido fora da tela, à direita */
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 4; /* Garantir que esteja acima de outros elementos */
+}
+
+.lateralMenuOpen {
+    right: 0;
+}
+
+.lateralMenu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lateralMenu ul li {
+    padding: 8px 16px;
+    text-align: center;
+}
+
+.lateralMenu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.lateralMenu ul li a:hover {
+    background-color: #575757;
+}
+
+.menuToggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px; /* Posição do botão de menu na direita */
+    z-index: 5; /* Garantir que esteja acima do menu lateral */
+}
+
+.menuToggle img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Estilos específicos para grid-img */
+.gridImg {
+    background-color: rgb(43, 45, 46);
+    border-radius: 7px;
+    max-height: 80vh;
+    padding: 2vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 2fr));
+    gap: 0.3rem;
+}
+
+.gridImgItem {
+    border-radius: 1vw;
+    max-width: 100%;
+}

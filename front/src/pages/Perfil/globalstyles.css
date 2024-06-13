@@ -1,61 +1,259 @@
-
-
-.container{
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: auto;
+    width: 100vw;
+}
+
+header {
+    
+    height: 23vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.PerfilFoto {
+    display: flex;
+    position: absolute;
+    margin-top: 10vh;
+    top: 10;
+    left: 50;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    height: 15vh;
+    width: 15vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.nav-header {
+    position: absolute;
+    top: 2vw;
+    left: 85vw;
+    height: 6vh;
+    width: 6vh;
+}
+
+
+.bio {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    margin-top: 4vh;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding: 7vw;
+}
+
+.separador {
+    background-color: azure;
+    height: 50px;
+    width: 100vw;
+    margin-top: 1vw;
+}
+
+.separador-baixo {
+    background-color: azure;
+    height: 90px;
+    width: 100vw;
+    margin-top: 1vw;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 2fr));
+    padding: 2vw;
+    gap: 0.3rem;
+}
+
+li {
+    border-radius: 1vw;
+    list-style-type: none;
+}
+
+.grid-img {
+    background-color: rgb(43, 45, 46);
+    border-radius: 7px;
+    max-height: 80vh;
+}
+
+
+.formularioedit {
+    display:flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vw;
+    height: auto;
+    width: 100%;
+}
+
+.input-Edit {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 90vw;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15vw;
+    gap: 3vw;
+}
+
+.dadosinput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 10vw;
+    border-radius: 10px;
+    border: none;
+    padding: 2vw;
+    width: 90%;
+    background-color: rgb(217, 217, 217);
+}
+
+.bioinput {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: auto;
+    height: 60vw;
+    border-radius: 10px;
+    border: none;
+    padding: 2vw;
+    width: 90%;
+    background-color: rgb(217, 217, 217);
+}
+
+.formularioedit-bio {
+    display:flex;
+    margin: auto;
+    margin-top: 7vw;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vw;
+    height: auto;
+    width: 100%;
+}
+
+
+
+/* Restante do CSS já fornecido anteriormente */
+
+.Papel-de-Parede {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
    
-    height: 100vh;
-    width: 100vw;
- 
+    max-height: 25vh;
+    z-index: 1;
 }
 
-header{
 
-    height: 20vh;
-    width: 100vw;
+.PerfilFoto {
     display: flex;
-    flex-direction: column;
+    position: absolute;
+    top: 3vh; /* Ajuste conforme necessário */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15vh;
+    height: 15vh;
     flex-direction: column;
     align-items: center;
-    
-    
+    justify-content: center;
+    z-index: 2; /* Garantir que esteja acima do Papel-de-Parede */
 }
 
 
 
-.FotoPerfilnome{
-
+.FotoPerfilnome {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
 }
 
-
-.editor{
+.editor {
     position: absolute;
     width: 20%;
     height: 20%;
     left: 80%;
     top: 80%;
-}
-.editor-bio{
-    position: relative;
-    width: 10%;
-    height: 10%;
-    left: 87%;
-    top: 26%;
+    z-index: 3; /* Garantir que esteja acima da FotoPerfilnome */
 }
 
-.bio-text{
-        height: auto;
-        width: auto;
-        text-align: center;
+/* Estilos para o menu lateral */
+.lateral-menu {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Escondido fora da tela */
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 4; /* Garantir que esteja acima de outros elementos */
+}
+.lateralMenu {
+    position: fixed;
+    top: 0;
+    right: -250px; /* Escondido fora da tela, à direita */
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 4; /* Garantir que esteja acima de outros elementos */
 }
 
-.name{
-    height: auto;
-    width: auto;
-    margin-bottom: 5vw;
+.lateral-menu.open {
+    left: 0;
 }
 
-ul{
+.lateral-menu ul {
     list-style-type: none;
+    padding: 0;
+}
+
+.lateral-menu ul li {
+    padding: 8px 16px;
+    text-align: center;
+}
+
+.lateral-menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.lateral-menu ul li a:hover {
+    background-color: #575757;
+}
+
+.menu-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 5; /* Garantir que esteja acima do menu lateral */
+}
+
+.menu-toggle img {
+    width: 30px;
+    height: 30px;
 }

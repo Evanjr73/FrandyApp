@@ -3,12 +3,12 @@
 import editor from '../img/editar.png'
 import '../globalstyles.css'
 import './PerfilEdit.css'
-import '../PerfilPublico/PerfilPublico.css'
+import '../PerfilPublico/PerfilPublico.module.css'
 import Footer from '../../../compo/Footer'
 import menu from "../../../assets/img/menu.png"
 import FotoPapelParede from "../../../assets/img/praia.png"
 import FotoPerfilnome from "../../../assets/img/foto.png"
-
+import MenuLateral from '../../../compo/menulateral/menu'
 
 
 
@@ -19,9 +19,7 @@ function PerfilEdit() {
     return (
         <div className="container">
             <header>
-                <nav>
-                    <img src={menu} alt="" />
-                </nav>
+                <MenuLateral></MenuLateral>
                 <img src={FotoPapelParede} alt="" className='Papel-de-parede' />
                 <div className='PerfilFoto'>
                     <img src={FotoPerfilnome} alt="" className='FotoPerfilnome' />
@@ -75,7 +73,7 @@ function PerfilEdit() {
 
 
             </div>
-
+            <div className='separador-baixo'></div>
 
             <Footer></Footer>
         </div>

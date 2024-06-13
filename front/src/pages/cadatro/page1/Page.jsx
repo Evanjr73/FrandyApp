@@ -1,6 +1,6 @@
 import editor from '../../../assets/img/editar.png'
 import FotoPerfilnome from "../../../assets/img/foto.png"
-import './Page.css'
+import './Page.module.css'
 
 function Cadastro1() {
     return (

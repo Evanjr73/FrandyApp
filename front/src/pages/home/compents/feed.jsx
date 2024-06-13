@@ -1,7 +1,7 @@
 
 
 import foto from "../../../assets/img/foto.png"
-import "./feed.css"
+import "./feed.module.css"
 
 function Feed(){
     return(

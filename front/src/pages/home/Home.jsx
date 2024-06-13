@@ -1,6 +1,6 @@
 
 import Feed from "./compents/feed"
-import "./Home.css"
+import "./Home.module.css"
 
 import Card from "./compents/Card"
 import Footer from "../../compo/Footer"

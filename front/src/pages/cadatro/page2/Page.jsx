@@ -1,5 +1,5 @@
 
-import './Page.css'
+import './Page.module.css'
 import Footer from '../../../compo/Footer'
 import FooterCad from '../../../compo/FooterCadastro.jsx'
 

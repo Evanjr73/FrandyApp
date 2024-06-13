@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import TinderCard from 'react-tinder-card';
 import image from "../../../assets/img/foto.png";
-import './card.css';
+import './card.module.css';
 
 const Card = () => {
   const [cardData, setCardData] = useState({ image: '', text: '' });
