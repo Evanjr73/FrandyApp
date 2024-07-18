@@ -19,48 +19,12 @@
             height: 85vh;
             align-items: center;
     }
-    .footer-footer{
+    
 
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        background-color: #f8f8f8;
-        text-align: center;
-        padding: 10px;
-        box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
-        /* position: absolute;
-        bottom: 0;
-        width: 100%;
-        background-color: #f1f1f1;
-        text-align: center;
-        padding: 10px;
-        box-shadow: 0 -2px 5px rgba(0,0,0,0.1); */
-
-
-
-        display: flex;
-        align-items: center;
-        
-        
-
-        justify-content: space-around;
-        padding: 15px;
-        gap: 10vw;
-        width: 100vw;
-        height: 10vh;
-        
-    }
-
-    .button-footer{
-        height: 9vh;
-        width: 20vw;
-        border-radius: 40px;
-        background-color: #f8f8f80b;
-        border: none;
-    }
+  
     .footerImg{
-        max-width: 80%;
-        max-height: 80%;
+        max-width: 20%;
+        max-height: 20%;
     }
 
 }

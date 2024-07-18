@@ -6,6 +6,7 @@ import PerfilPrivado from './pages/Perfil/PerfilPrivado/PerfilPrivado'
 import PerfilEdit from './pages/Perfil/PerfilEdit/PerfilEdit'
 import Cadastro1 from './pages/cadatro/page1/Page'
 import Page2 from './pages/cadatro/page2/Page'
+import Footer from './compo/Footer'
 
 import './App.css'
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/perfil/Edit" element={<PerfilEdit/>} />
           <Route path="/perfil/cadastro" element={<Cadastro1/>} />
           <Route path="/perfil/cadastro/2" element={<Page2/>} />
+          <Route path="/footer" element={<Footer/>} />
 
         </Routes>
       </Router>

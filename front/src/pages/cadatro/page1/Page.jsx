@@ -1,15 +1,15 @@
 import editor from '../../../assets/img/editar.png'
 import FotoPerfilnome from "../../../assets/img/foto.png"
-import './Page.module.css'
+import style from  './Page.module.css'
 
 function Cadastro1() {
     return (
         <div className="container">
 
 
-            <div className='PerfilFoto-page1'>
+            <div className={style.PerfilFotopage1}>
                 <img src={FotoPerfilnome} alt="" className='FotoPerfilnome' />
-                <img src={editor} className="editor" alt="" />
+                <img src={editor} className= {style.editor} alt="" />
 
             </div>
 

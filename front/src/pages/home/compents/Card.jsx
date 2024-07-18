@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import TinderCard from 'react-tinder-card';
 import image from "../../../assets/img/foto.png";
-import './card.module.css';
+import style from'./card.module.css';
 
 const Card = () => {
   const [cardData, setCardData] = useState({ image: '', text: '' });
@@ -35,7 +35,7 @@ const Card = () => {
       onCardReightScreen={() => onCardReightScreen('Card')}
       preventSwipe={['up', 'down']}
     >
-      <div className="card-container" style={{ display: like }}>
+      <div className={style.cardContainer} style={{ display: like }}>
         <img src={cardData.image} alt="Swipeable" className="card-image" />
         <div className="card-text">{cardData.text}</div>
       </div>

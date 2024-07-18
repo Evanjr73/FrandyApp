@@ -1,7 +1,7 @@
 
 
 import '../globalstyles.css'
-import './PerfilPublico.module.css'
+import style from './PerfilPublico.module.css'
 import menu from "../../../assets/img/menu.png"
 import Chat from "../../../assets/img/chat.png"
 import FotoPapelParede from "../../../assets/img/praia.png"

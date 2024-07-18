@@ -1,5 +1,4 @@
-import "../pages/home/Home.css"
-
+import style from './footer.module.css'
 import Chat from "../assets/img/chat.png"
 import Perfil from "../assets/img/perfil.png"
 
@@ -8,20 +7,20 @@ function Footer() {
 
 
     return (
-        <footer className="footer-footer">
+        <footer className={style.foote}>
             <a href="">
-                <button className="button-footer"></button>
+                <button className={style.buttonFooter}></button>
             </a>
 
             <a href="">
-                <button className="button-footer">
-                    <img className="footerImg" src={Chat} alt="Chat" />
+                <button className={style.buttonFooter}>
+                    <img className={style.footerImg} src={Chat} alt="Chat" />
                 </button>
             </a>
 
             <a href="">
-                <button className="button-footer">
-                    <img className="footerImg" src={Perfil} alt="" />
+                <button className={style.buttonFooter}>
+                    <img className={style.footerImg} src={Perfil} alt="" />
                 </button>
             </a>
         </footer>

@@ -197,19 +197,7 @@ li {
 .lateral-menu {
     position: fixed;
     top: 0;
-    left: -250px; /* Escondido fora da tela */
-    width: 250px;
-    height: 100%;
-    background-color: #333;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    z-index: 4; /* Garantir que esteja acima de outros elementos */
-}
-.lateralMenu {
-    position: fixed;
-    top: 0;
-    right: -250px; /* Escondido fora da tela, à direita */
+    left: 550px; /* Escondido fora da tela */
     width: 250px;
     height: 100%;
     background-color: #333;
@@ -219,8 +207,9 @@ li {
     z-index: 4; /* Garantir que esteja acima de outros elementos */
 }
 
+
 .lateral-menu.open {
-    left: 0;
+    left: 45vw;
 }
 
 .lateral-menu ul {
@@ -249,7 +238,7 @@ li {
     cursor: pointer;
     position: absolute;
     top: 20px;
-    left: 20px;
+    right: 20px;
     z-index: 5; /* Garantir que esteja acima do menu lateral */
 }
 

@@ -1,8 +1,8 @@
-import "../pages/home/Home.css"
+import "../../src/pages/home/Home.module.css"
 
 import Chat from "../assets/img/chat.png"
 import setaDireita from "../assets/img/seta-direita.png"
-import './footer.css'
+import './footer.module.css'
 function FooterCad() {
 
 

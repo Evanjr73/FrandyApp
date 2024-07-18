@@ -4,7 +4,7 @@ import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import { Container, Row, Col, Button, Form as BootstrapForm } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./Login.module.css"
+import style from "./Login.module.css"
 
 const Login = () => {
   const initialValues = {
@@ -24,7 +24,7 @@ const Login = () => {
   };
 
   return (
-    <Container className='container-login'>
+    <Container className={style.containerlogin}>
       <Row className="justify-content-md-center">
         <Col md={4}>
           <h2 className="my-4">Login</h2>

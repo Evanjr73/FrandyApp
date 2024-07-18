@@ -1,16 +1,17 @@
 
 import Feed from "./compents/feed"
-import "./Home.module.css"
+import style from "./Home.module.css"
+
 
 import Card from "./compents/Card"
 import Footer from "../../compo/Footer"
 
 function Home() {
     return (
-        <div className="home">
+        <div className={style.home}>
 
 
-            <div className="componet">
+            <div className={style.componet}>
                 <Card></Card>
             </div>
             <Footer></Footer>
